@@ -1,0 +1,16 @@
+This program was written in javascript using the p5 library. You can use the below resources to get a better understanding of p5
+https://p5js.org/
+https://github.com/processing/p5.js/wiki/p5.js-overview
+https://p5js.org/reference/
+-----------------------------------
+To run the game open spaceinvaders.htm in your browser. 
+You can move your ship with the left and right arrow keys.
+Click the space bar to fire your laser. The game starts at level 1.
+Each time you destroy to current fleet you advance to the next level.
+The game is over if the fleet touches your ship.
+If the game is over press the RETURN key to restart the game.
+
+sketch.js - controls the overall canvas, and individual actors. 
+
+ship.js, fleet.js, alien.js, laser.js are the definitions of the individual actors
+
